@@ -1,0 +1,123 @@
+html {
+    background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-image: url("assets/images/webpage-background.jpg");
+    background-repeat: repeat-x;
+}
+a:focus, a:hover {
+  font-style: italic;
+  background-color: lightgrey;
+}
+
+/* the styles for the header */
+header {
+    width: 100%;
+}
+
+/* the style for the navigation menu */
+#nav_menu ul {
+    list-style-type: none;
+    margin: -4px;
+    padding: 5px;
+    position: static;
+    background-color: black;
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    height: 23px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+#nav_menu current {
+    color: blue;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+    float: none;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* the styles for the main section */
+main {
+    clear: left;
+}
+assessment {
+    text-align: left;
+    padding: 0 0 0 12em;
+}
+assessment img {
+    float: right; 
+    border: 0.5px black;
+    outline-style: solid;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+assessment h2 {
+    color: blue;
+    margin-bottom: -1px;
+    margin-left: 20px;
+}
+assessment p {
+  color: black;
+  margin-top: 2px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+assessment_grey p {
+  color: grey;
+}
+questions {
+  color: black;
+  margin-top: 2px;
+  margin-left: 20px;
+}
+questions h3 {
+    color: blue;
+    margin-bottom: -1px;
+    margin-left: 20px;
+}
+questions h4 {
+    color: blue;
+    margin-bottom: -1px;
+    margin-left: 20px;
+}
+questions p {
+  color: black;
+  margin-top: 2px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+/* the styles for the footer */
+footer {
+  background-color: black;
+  clear: both;
+}
+
+footer p {
+  text-align: left;
+  color: white;
+  padding: 0 0 0 1em;
+}
