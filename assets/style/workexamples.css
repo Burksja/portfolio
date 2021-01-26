@@ -15,10 +15,8 @@ html {
 #iframe {
     width: auto;
 }
-#t01{
-    width: 100%;
-}
 table, th, td {
+  width: 100%;
   border-collapse: collapse;
   text-align: left;
   padding-bottom: 1em;
