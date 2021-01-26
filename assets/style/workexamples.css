@@ -1,0 +1,32 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+#iframe {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#iframe {
+    width: auto;
+	float: right;
+}
+#write1 {
+	float: left;
+}
+#t01{
+    width: 100%;
+}
+table, th, td {
+  border-collapse: collapse;
+  text-align: left;
+  padding-bottom: 1em;
+}
+table, th {
+    padding-left: 1em;
+}
